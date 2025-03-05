@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "env": {
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        // "no-console": "error"
+        // above when activated will throw an error "error  Unexpected console statement  no-console"
+        // incase we console.log
+        // To disable the error we use;
+        "no-console": "off"
+    }
+}
