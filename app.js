@@ -46,9 +46,10 @@ app.use(function (err, req, res) {
 })
 
 // Connect to db
+// mongoose
+//     .connect(process.env.DATABASE_URI)
 mongoose
-    .connect(process.env.DATABASE_URI)
-    // mongoose.connect(process.env.DB_CONNECTION)
+    .connect(process.env.DB_CONNECTION)
     .then(() => console.log('DB connected!'))
     .catch((err) => console.log(err))
 
