@@ -4,9 +4,13 @@ workflows:
   lint-build-test:
     jobs:
       - lint-code
-      - build-and-test:
+      - hold:
+          type: approval
           requires:
             - lint-code
+      - build-and-test:
+          requires:
+            - hold
 
 jobs:
   lint-code:
