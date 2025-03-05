@@ -1,6 +1,6 @@
 # Conditional Pipeline Execution
 
-[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/conditional-pipeline-execution-demo.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/conditional-pipeline-execution-demo)
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/conditional-circleci-pipeline-execution-app.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/conditional-circleci-pipeline-execution-app)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
@@ -13,9 +13,9 @@ A Node API project with tests linting packages setup for the purpose of demonstr
 run the following command on your terminal to clone the repository:
 
 ```bash
-git clone https://github.com/CIRCLECI-GWP/conditional-pipeline-execution-demo.git
+git clone https://github.com/CIRCLECI-GWP/conditional-circleci-pipeline-execution-app.git
 
-cd conditional-pipeline-execution-demo
+cd conditional-circleci-pipeline-execution-app
 ```
 
 ### install the dependencies
